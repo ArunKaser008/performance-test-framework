@@ -1,0 +1,105 @@
+2026-08-02 16:07:14.640
+            INFO 
+            [main]
+            LoggingTest
+            - Framework logging initialized.
+2026-08-02 16:07:14.643
+            WARN 
+            [main]
+            LoggingTest
+            - Sample warning message.
+2026-08-02 16:07:14.643
+            ERROR
+            [main]
+            LoggingTest
+            - Sample error message.
+2026-08-02 16:11:03.458
+            INFO 
+            [main]
+            LoggingTest
+            - Framework logging initialized.
+2026-08-02 16:11:03.461
+            WARN 
+            [main]
+            LoggingTest
+            - Sample warning message.
+2026-08-02 16:11:03.470
+            ERROR
+            [main]
+            LoggingTest
+            - Sample error message.
+2026-08-02 16:14:06.873
+            INFO 
+            [main]
+            LoggingTest
+            - Framework logging initialized.
+2026-08-02 16:14:06.878
+            WARN 
+            [main]
+            LoggingTest
+            - Sample warning message.
+2026-08-02 16:14:06.878
+            ERROR
+            [main]
+            LoggingTest
+            - Sample error message.
+2026-08-02 16:14:32.817
+            INFO 
+            [main]
+            LoggingTest
+            - Framework logging initialized.
+2026-08-02 16:14:32.821
+            WARN 
+            [main]
+            LoggingTest
+            - Sample warning message.
+2026-08-02 16:14:32.822
+            ERROR
+            [main]
+            LoggingTest
+            - Sample error message.
+2026-08-02 16:15:27.303
+            INFO 
+            [main]
+            LoggingTest
+            - Framework logging initialized.
+2026-08-02 16:15:27.307
+            WARN 
+            [main]
+            LoggingTest
+            - Sample warning message.
+2026-08-02 16:15:27.308
+            ERROR
+            [main]
+            LoggingTest
+            - Sample error message.
+2026-08-02 16:16:57.798
+            INFO 
+            [main]
+            LoggingTest
+            - Framework logging initialized.
+2026-08-02 16:16:57.801
+            WARN 
+            [main]
+            LoggingTest
+            - Sample warning message.
+2026-08-02 16:16:57.801
+            ERROR
+            [main]
+            LoggingTest
+            - Sample error message.
+2026-08-02 16:22:00.399
+            INFO 
+            [main]
+            LoggingTest
+            - Framework logging initialized.
+2026-08-02 16:22:00.407
+            WARN 
+            [main]
+            LoggingTest
+            - Sample warning message.
+2026-08-02 16:22:00.407
+            ERROR
+            [main]
+            LoggingTest
+            - Sample error message.

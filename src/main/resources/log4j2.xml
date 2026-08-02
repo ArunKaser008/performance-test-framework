@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+    <Properties>
+
+        <Property name="LOG_DIR">logs</Property>
+
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss.SSS}
+            %-5level
+            [%t]
+            %c{1}
+            - %msg%n
+        </Property>
+
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console -->
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!-- Rolling File -->
+
+        <RollingFile
+                name="File"
+                fileName="${LOG_DIR}/framework.log"
+                filePattern="${LOG_DIR}/framework-%d{yyyy-MM-dd}-%i.log.gz">
+
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+
+            <Policies>
+
+                <SizeBasedTriggeringPolicy size="20 MB"/>
+
+            </Policies>
+
+            <DefaultRolloverStrategy max="10"/>
+
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="INFO">
+
+            <AppenderRef ref="Console"/>
+
+            <AppenderRef ref="File"/>
+
+        </Root>
+
+    </Loggers>
+
+</Configuration>
